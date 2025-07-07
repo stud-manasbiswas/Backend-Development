@@ -76,7 +76,7 @@ app.get("/contact",(req,res)=>{
 // understanding params
 
 app.get("/search",(req,res)=>{
-    console.log(req.query)
+    console.log( req.query)
      res.send("bhai abhi searching krenge ruk ja ")
 })
 
